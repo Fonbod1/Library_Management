@@ -5,7 +5,7 @@ public class Main {
         try {
             // Initialisez la connexion à la base de données
             DBconnection db = new DBconnection();
-            db.initialize("jdbc:postgresql://localhost:8080/postgres", "postgres", "bamenda05");
+            db.initialize("jdbc:postgresql://localhost:5432/LibraryDatabase", "postgres", "bamenda05");
 
             FichierMenus.menuChoice();
 
